@@ -14,7 +14,9 @@
     "react-helmet": "^5.2.0",
     "react-native-web": "0.5.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -26,7 +28,6 @@
     "antd-mobile": "2.1.8",
     "babel-plugin-react-native-web": "0.5.3",
     "prettier": "^1.11.1",
-    "prop-types": "15.6.1",
-    "react-native-tab-view": "0.0.74"
+    "prop-types": "15.6.1"
   }
 }
