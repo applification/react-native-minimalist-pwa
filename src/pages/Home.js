@@ -55,7 +55,7 @@ class FirstRoute extends Component {
             />
             <Photo
               imageURL={
-                'https://scontent-lht6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/26152588_1188914984576015_4446380707253583872_n.jpg'
+                'https://scontent-lhr3-1.cdninstagram.com/vp/157f88d298739845194d19096bc9834f/5B6F2F47/t51.2885-15/e35/28157443_404441573303128_568809590188146688_n.jpg?se=7'
               }
             />
           </Link>
@@ -71,7 +71,7 @@ class FirstRoute extends Component {
             />
             <Photo
               imageURL={
-                'https://scontent-lht6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/26152588_1188914984576015_4446380707253583872_n.jpg'
+                'https://scontent-lhr3-1.cdninstagram.com/vp/6609ff65fc6c75f412ae237ce05e6f70/5B6FE8FF/t51.2885-15/e35/26152588_1188914984576015_4446380707253583872_n.jpg?se=7'
               }
             />
           </Link>
@@ -87,7 +87,7 @@ class FirstRoute extends Component {
             />
             <Photo
               imageURL={
-                'https://scontent-lht6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/26152588_1188914984576015_4446380707253583872_n.jpg'
+                'https://scontent-lhr3-1.cdninstagram.com/vp/6609ff65fc6c75f412ae237ce05e6f70/5B6FE8FF/t51.2885-15/e35/26152588_1188914984576015_4446380707253583872_n.jpg?se=7'
               }
             />
           </Link>
@@ -103,7 +103,7 @@ class FirstRoute extends Component {
             />
             <Photo
               imageURL={
-                'https://scontent-lht6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/26152588_1188914984576015_4446380707253583872_n.jpg'
+                'https://scontent-lhr3-1.cdninstagram.com/vp/6609ff65fc6c75f412ae237ce05e6f70/5B6FE8FF/t51.2885-15/e35/26152588_1188914984576015_4446380707253583872_n.jpg?se=7'
               }
             />
           </Link>
