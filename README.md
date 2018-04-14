@@ -1,4 +1,50 @@
-# Gatsby PWA with React Native Web
+<div align="center">
+
+# react-native-minimalist-pwa
+
+![React Native Minimalist Logo](Minimalist-Logo.png)
+
+</div>
+
+---
+
+## Progressive Web App Example
+
+This is an example illustrating the usage of [react-native-minimalist](https://github.com/applification/react-native-minimalist) within a Gatsby based Progressive Web App (PWA).
+
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Installation](#installation)
+* [Running the PWA](#running-the-pwa)
+* [Art Module Bug](#art-module-bug)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Installation
+
+`npm install`
+
+## Usage
+
+### Storybook
+
+`npm run storybook`
+
+### Development
+
+`npm run develop`
+
+### Production
+
+`npm run build`
+
+## Art Module Bug
 
 Art NPM Module has a bug that prevents SSR / PreRender to fix just add the following to `node_modules/art/modes/fast-noSideEffects.js`
 
@@ -12,32 +58,3 @@ var hasCanvas = function() {
   return canvas && !!canvas.getContext
 }
 ```
-
-The default Gatsby starter.
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
-
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm run develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

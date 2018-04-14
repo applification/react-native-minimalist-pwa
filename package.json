@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "author": "Dave Hudson <dave@applification.net>",
   "dependencies": {
-    "gatsby": "^1.9.238",
-    "gatsby-link": "^1.6.39",
-    "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby": "^1.9.248",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-native-web": "0.1.2",
     "gatsby-plugin-react-next": "1.0.11",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "react": "16.3.1",
+    "react-dom": "16.3.1",
     "react-helmet": "^5.2.0",
-    "react-native-web": "0.5.3"
+    "react-native-web": "0.5.4"
   },
   "keywords": [
     "gatsby"
@@ -27,15 +27,15 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.15",
-    "@storybook/addon-links": "^3.3.15",
-    "@storybook/addons": "^3.3.15",
-    "@storybook/react": "^3.3.15",
+    "@storybook/addon-actions": "^3.4.1",
+    "@storybook/addon-links": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
+    "@storybook/react": "^3.4.1",
     "antd-mobile": "2.1.8",
     "babel-core": "^6.26.0",
     "babel-loader": "7.1.1",
-    "babel-plugin-react-native-web": "0.5.3",
-    "prettier": "^1.11.1",
+    "babel-plugin-react-native-web": "0.5.4",
+    "prettier": "^1.12.0",
     "prop-types": "15.6.1"
   }
 }
