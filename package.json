@@ -14,6 +14,7 @@
     "react-art": "16.3.2",
     "react-dom": "16.3.1",
     "react-helmet": "^5.2.0",
+    "react-native-minimalist": "2.0.0",
     "react-native-minimalist-icons": "1.0.1",
     "react-native-web": "0.6.0",
     "workbox-cli": "3.1.0"
