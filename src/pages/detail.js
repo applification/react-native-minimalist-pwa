@@ -1,18 +1,44 @@
 import React, { Component } from 'react'
-import { Button, ScrollView, View, StyleSheet, Dimensions } from 'react-native'
+import {
+  Button,
+  ScrollView,
+  View,
+  StyleSheet,
+  Dimensions,
+  Animated,
+} from 'react-native'
 import { Link, navigateTo } from 'gatsby-link'
 import { HeaderText, Photo } from 'react-native-minimalist'
 
 import NavBar from '../components/navbar'
 
+const windowWidth = Dimensions.get('window').width
+
 class Detail extends Component {
+  constructor(props) {
+    super(props)
+    this._opacity = new Animated.Value(0)
+  }
+
+  componentDidMount() {
+    Animated.timing(this._opacity, {
+      toValue: 1,
+      duration: 200,
+    }).start()
+  }
+
   buttonPress = () => {
     alert('hey')
   }
 
   render() {
+    const containerStyles = {
+      flex: 1,
+      opacity: this._opacity,
+    }
+
     return (
-      <ScrollView style={styles.app}>
+      <Animated.ScrollView style={containerStyles}>
         <NavBar style={styles.navbar} arrowBack={true} />
         <View style={styles.header}>
           <HeaderText>Detail page</HeaderText>
@@ -23,15 +49,12 @@ class Detail extends Component {
           />
           <Button color="red" title="Press Me!" onPress={this.buttonPress} />
         </View>
-      </ScrollView>
+      </Animated.ScrollView>
     )
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
   view: {
     height: 812,
   },
