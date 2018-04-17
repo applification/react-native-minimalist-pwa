@@ -11,13 +11,16 @@
     "gatsby-plugin-react-native-web": "0.1.2",
     "gatsby-plugin-react-next": "1.0.11",
     "react": "16.3.1",
+    "react-art": "16.3.2",
     "react-dom": "16.3.1",
     "react-helmet": "^5.2.0",
     "react-native-minimalist-icons": "1.0.1",
-    "react-native-web": "0.5.4",
+    "react-native-web": "0.6.0",
     "workbox-cli": "3.1.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build && workbox injectManifest ./workbox-config.js",
@@ -33,11 +36,12 @@
     "@storybook/addons": "^3.4.1",
     "@storybook/react": "^3.4.1",
     "antd-mobile": "2.1.8",
+    "art": "0.10.2",
     "babel-core": "^6.26.0",
     "babel-loader": "7.1.1",
     "babel-plugin-react-native-web": "0.5.4",
+    "babel-runtime": "^6.26.0",
     "prettier": "^1.12.0",
-    "prop-types": "15.6.1",
-    "babel-runtime": "^6.26.0"
+    "prop-types": "15.6.1"
   }
 }

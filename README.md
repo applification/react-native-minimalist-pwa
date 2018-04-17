@@ -43,18 +43,3 @@ This is an example illustrating the usage of [react-native-minimalist](https://g
 ### Production
 
 `npm run build`
-
-## Art Module Bug
-
-Art NPM Module has a bug that prevents SSR / PreRender to fix just add the following to `node_modules/art/modes/fast-noSideEffects.js`
-
-```JavaScript
-var hasCanvas = function() {
-  var canvas =
-    typeof window !== 'undefined' &&
-    window.document &&
-    window.document.createElement &&
-    document.createElement('canvas')
-  return canvas && !!canvas.getContext
-}
-```
