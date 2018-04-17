@@ -12,6 +12,7 @@
     "react": "16.3.1",
     "react-dom": "16.3.1",
     "react-helmet": "^5.2.0",
+    "react-native-minimalist-icons": "1.0.1",
     "react-native-web": "0.5.4"
   },
   "keywords": [
@@ -23,7 +24,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
@@ -36,6 +37,7 @@
     "babel-loader": "7.1.1",
     "babel-plugin-react-native-web": "0.5.4",
     "prettier": "^1.12.0",
-    "prop-types": "15.6.1"
+    "prop-types": "15.6.1",
+    "babel-runtime": "^6.26.0"
   }
 }

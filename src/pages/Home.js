@@ -16,8 +16,9 @@ import {
   Photo,
   PhotoInfo,
 } from 'react-native-minimalist'
+import { IconCircle } from 'react-native-minimalist-icons'
 import Link from 'gatsby-link'
-import IconCircle from '../components/icons/circle'
+
 const Icon = <IconCircle style={{ color: '#000000', height: '1.6em' }} />
 
 class FirstRoute extends Component {

@@ -7,9 +7,11 @@ import Home from './Home'
 import Profile from './Profile'
 import Settings from './Settings'
 
-import IconCamera from '../components/icons/camera'
-import IconAlerts from '../components/icons/alerts'
-import IconCircle from '../components/icons/circle'
+import {
+  IconCamera,
+  IconAlerts,
+  IconCircle,
+} from 'react-native-minimalist-icons'
 
 import 'antd-mobile/lib/tabs/style/css'
 
