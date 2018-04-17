@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^1.9.248",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-manifest": "1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-native-web": "0.1.2",
     "gatsby-plugin-react-next": "1.0.11",
