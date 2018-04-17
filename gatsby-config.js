@@ -12,9 +12,10 @@ module.exports = {
         name: 'PWA',
         short_name: 'PWA',
         start_url: '/',
-        background_color: '#f7f0eb',
-        theme_color: '#a2466c',
-        display: 'minimal-ui',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'standalone',
+        orientation: 'portrait',
         icon: 'icon.png',
         icons: [
           {

@@ -14,14 +14,13 @@
     "react-dom": "16.3.1",
     "react-helmet": "^5.2.0",
     "react-native-minimalist-icons": "1.0.1",
-    "react-native-web": "0.5.4"
+    "react-native-web": "0.5.4",
+    "workbox-cli": "3.1.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && workbox injectManifest ./workbox-config.js",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
