@@ -2,20 +2,12 @@ import React, { Component } from 'react'
 import {
   AsyncStorage,
   Button,
-  Text,
   ScrollView,
   View,
   StyleSheet,
   Dimensions,
 } from 'react-native'
-import {
-  Content,
-  HeaderText,
-  BodyText,
-  Profile,
-  Photo,
-  PhotoInfo,
-} from 'react-native-minimalist'
+import { Content, Profile, Photo, PhotoInfo } from 'react-native-minimalist'
 import { IconCircle } from 'react-native-minimalist-icons'
 import Link from 'gatsby-link'
 

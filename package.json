@@ -10,13 +10,13 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-native-web": "0.1.2",
     "gatsby-plugin-react-next": "1.0.11",
-    "react": "16.3.1",
+    "react": "16.3.2",
     "react-art": "16.3.2",
-    "react-dom": "16.3.1",
+    "react-dom": "16.3.2",
     "react-helmet": "^5.2.0",
-    "react-native-minimalist": "2.1.1",
-    "react-native-minimalist-icons": "1.0.1",
-    "react-native-web": "0.6.0",
+    "react-native-minimalist": "2.3.1",
+    "react-native-minimalist-icons": "^1.0.1",
+    "react-native-web": "0.6.1",
     "workbox-cli": "3.1.0"
   },
   "keywords": [
@@ -32,15 +32,10 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.1",
-    "@storybook/addon-links": "^3.4.1",
-    "@storybook/addons": "^3.4.1",
-    "@storybook/react": "^3.4.1",
     "antd-mobile": "2.1.8",
-    "art": "0.10.2",
     "babel-core": "^6.26.0",
     "babel-loader": "7.1.1",
-    "babel-plugin-react-native-web": "0.6.0",
+    "babel-plugin-react-native-web": "0.6.1",
     "babel-runtime": "^6.26.0",
     "prettier": "^1.12.0",
     "prop-types": "15.6.1"

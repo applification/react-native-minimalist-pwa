@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ScrollView } from 'react-native'
-import { Content, HeaderText, BodyText } from 'react-native-minimalist'
+import { Content, Header, Text } from 'react-native-minimalist'
 import Link from 'gatsby-link'
 
 class Settings extends Component {
@@ -8,11 +8,11 @@ class Settings extends Component {
     return (
       <ScrollView style={[{ backgroundColor: '#ffffff' }]}>
         <Content>
-          <HeaderText>Settings</HeaderText>
-          <BodyText>
+          <Header>Settings</Header>
+          <Text>
             Some body text that wraps on to the next line with the correct
             padding.
-          </BodyText>
+          </Text>
         </Content>
       </ScrollView>
     )
